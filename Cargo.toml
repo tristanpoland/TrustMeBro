@@ -1,0 +1,12 @@
+[package]
+name = "trustmebro"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tristan Poland <me@tridentforu.com>"]
+description = "A macro that wraps arbitrary tokens in an unsafe block"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/tristanpoland/TrustMeBro"
+keywords = ["macro", "unsafe"]
+categories = ["development-tools"]
+
+[dependencies]
