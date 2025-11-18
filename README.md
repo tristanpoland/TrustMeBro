@@ -8,13 +8,13 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-trustmebro = "0.1.0"
+trustmebro-macro = "0.1.0"
 ```
 
 ## Usage
 
 ```rust
-use trustmebro::trustmebro;
+use trustmebro_macro::trustmebro;
 
 let mut x = 5;
 let ptr = &mut x as *mut i32;
